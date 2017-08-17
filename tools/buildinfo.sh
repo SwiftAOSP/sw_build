@@ -57,4 +57,6 @@ if [ -n "$BUILD_THUMBPRINT" ] ; then
   echo "ro.build.thumbprint=$BUILD_THUMBPRINT"
 fi
 
+echo "ro.swift.device=$SWIFT_DEVICE"
+
 echo "# end build properties"
